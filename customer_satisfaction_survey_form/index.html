@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Customer Satisfaction Survey</title>
+    <link href="styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Customer Satisfaction Survey Form</h1>
+        <p id="description">To understand customer satisfaction with our product</p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" required/>
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter your email" required/>
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number" >Age:</label>
+          <input id="number" type="number" class="number" placeholder="Age" min="10" max="99" required/>
+        </div >
+        <div class="form-group">
+          <p id="gender-select" class="gender">Gender:</p>
+          <select id="dropdown" class="gender"name="gender"required>
+            <option value="">--select your gender--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+          </select>
+        </div>
+        <div>
+          <p>How satisfied are you with our product?</p>
+          <label>
+            <input type="radio" value="satisfaction" class="input-radio" name="product-satisfaction"/>
+            Satisfied
+          </label>
+          <label>
+            <input type="radio" value="not-Satisfied"class="input-radio" name="product-satisfaction"/>
+            Not-Satisfied
+          </label>
+          <label>
+            <input type="radio" value="neutral"class="input-radio" name="product-satisfaction"/>
+            Neutral
+          </label>
+        </div>
+        <div >
+          <p></p>
+        </div>
+        <div>
+          <p>How would you rate our customer service?</p>
+          <select id="dropdown">
+            <option>--select an option--</option>
+            <option>5 star</option>
+            <option>4 star</option>
+            <option>3 star</option>
+            <option>2 star</option>
+            <option>1 star</option>
+          </select>
+        </div>
+        <div>
+          <p>What can we improve about our product?</p>
+          <label>
+            <input type="checkbox" value="quality">
+            Quality
+          </label>
+          <label>
+            <input type="checkbox" value="pricing">
+            Pricing
+          </label>
+          <label>
+            <input type="checkbox" value="features">
+            Features
+          </label>
+          <label>
+            <input type="checkbox" value="others">
+            Others
+          </label>
+        </div>
+        <div >
+          <p>Any comments or suggestions?</p>
+          <textarea placeholder="Enter your comment here..."></textarea>
+        </div>
+        <div>
+          <button type="submit" id="submit" class="submit-button">Send</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+header{
+    background-color: none;
+    text-align: center;
+    color: white;
+  }
+  
+  h1 {
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  :root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+  }
+  
+  
+  .container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+  }
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  input,
+  button,
+  select,
+  textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  body{
+      background-color: #000000;
+      text-align: center;
+      color: white;
+      font-family: sans-serif;
+      font-size: 1rem;
+    }
+  
+  body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      background: var(--color-darkblue);
+      background-image: linear-gradient(
+          115deg,
+          rgba(58, 58, 158, 0.8),
+          rgba(136, 136, 206, 0.7)
+        ),
+        url(https://site.surveysparrow.com/wp-content/uploads/2021/07/9-Different-Types-of-Survey-Methods@2x-8-1536x777.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  
+  
+  .gender{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+   form{
+    background: var(--color-darkblue-alpha);
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+   }
+  
+  .form-group input {
+              width: 200px; /* Fixed width for all input fields */
+              padding: 2px;
+              margin: 6px;
+              box-sizing: border-box; 
+          }
+  
+  @media (min-width: 480px) {
+    form {
+      padding: 2.5rem;
+    }
+  } 
+  
+  .label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .gender{
+    display: inline-element;
+  }
+  
+  .submit-button{
+    background-color: green;
+    color: white;
+    margin:8px;
+  }
+  
