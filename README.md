@@ -10,7 +10,7 @@ This is a simple customer satisfaction survey form created using HTML and CSS.
 
 ## How to Use
 
- 1. Clone the repository to your local machine:
+ 1. Clone the repository to your local machine.
 
  2.Open the index.html file in your web browser to view the survey form.
 
