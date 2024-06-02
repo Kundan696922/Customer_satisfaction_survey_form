@@ -2,7 +2,7 @@
 
 This is a simple customer satisfaction survey form created using HTML and CSS.
 
-## Screenshot
+## Overview 
 
 ![Screenshot 2024-05-31 230942](https://github.com/Kundan696922/Customer_satisfaction_survey_form/assets/159406079/e8c221e0-be4c-4fad-9a0a-b1927a653ed4)
 
